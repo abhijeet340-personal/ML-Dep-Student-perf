@@ -23,8 +23,8 @@ def predict():
 
     return render_template('index.html', 
         prediction_text='student_performance is {} where low:0, medium:1 and high:2'.format(output),
-        Influencers_text='If student performace is poor then it is mainly due to Prom_Ponderado, Impres/Division5, Intra/Division1',
-        show_image=1
+        Influencers_text='If student performace is poor then it is mainly due to Prom_Ponderado, Impres/Division5, Intra/Division1 - Graphs are shown below ', 
+        show_image=1,show_image_1=1
         )
 
 
